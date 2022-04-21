@@ -12,7 +12,7 @@ Run: `sudo docker run --rm -v $(pwd):/tmp dexray`
 
 ## Files DeXRAY Can Handle
 
-# File types that dexray attempts to handle:
+```
 #     * AhnLab (V3B)
 #     * Amiti (IFC)
 #     * ASquared (EQF)
@@ -54,3 +54,5 @@ Run: `sudo docker run --rm -v $(pwd):/tmp dexray`
 #     * Vipre (<GUID>_ENC2)
 #     * Zemana <hash> files+quarantine.db
 #     * Any binary file (using X-RAY scanning)
+```
+
